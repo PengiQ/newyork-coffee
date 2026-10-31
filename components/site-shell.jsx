@@ -61,6 +61,11 @@ export function SiteFooter() {
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} New York Coffee Pakistan</span>
         <Link href="/locations">Find a café</Link>
+        <nav className="footer-legal-links" aria-label="Legal and accessibility">
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+          <Link href="/accessibility">Accessibility</Link>
+        </nav>
         <span>BREW SOMETHING INSPIRING</span>
       </div>
     </footer>
